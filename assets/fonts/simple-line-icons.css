@@ -1,0 +1,781 @@
+@font-face {
+	font-family: 'Simple-Line-Icons';
+	src:url('../fonts/line-icons/Simple-Line-Icons.eot');
+	src:url('../fonts/line-icons/Simple-Line-Icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/line-icons/Simple-Line-Icons.woff') format('woff'),
+		url('../fonts/line-icons/Simple-Line-Icons.ttf') format('truetype'),
+		url('../fonts/line-icons/Simple-Line-Icons.svg#Simple-Line-Icons') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+/*
+ Use the following CSS code if you want to have a class per icon.
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+*/
+.simple-user,
+.simple-people,
+.simple-user-female,
+.simple-user-follow,
+.simple-user-following,
+.simple-user-unfollow,
+.simple-login,
+.simple-logout,
+.simple-emotsmile,
+.simple-phone,
+.simple-call-end,
+.simple-call-in,
+.simple-call-out,
+.simple-map,
+.simple-location-pin,
+.simple-direction,
+.simple-directions,
+.simple-compass,
+.simple-layers,
+.simple-menu,
+.simple-list,
+.simple-options-vertical,
+.simple-options,
+.simple-arrow-down,
+.simple-arrow-left,
+.simple-arrow-right,
+.simple-arrow-up,
+.simple-arrow-up-circle,
+.simple-arrow-left-circle,
+.simple-arrow-right-circle,
+.simple-arrow-down-circle,
+.simple-check,
+.simple-clock,
+.simple-plus,
+.simple-minus,
+.simple-close,
+.simple-event,
+.simple-exclamation,
+.simple-organization,
+.simple-trophy,
+.simple-screen-smartphone,
+.simple-screen-desktop,
+.simple-plane,
+.simple-notebook,
+.simple-mustache,
+.simple-mouse,
+.simple-magnet,
+.simple-energy,
+.simple-disc,
+.simple-cursor,
+.simple-cursor-move,
+.simple-crop,
+.simple-chemistry,
+.simple-speedometer,
+.simple-shield,
+.simple-screen-tablet,
+.simple-magic-wand,
+.simple-hourglass,
+.simple-graduation,
+.simple-ghost,
+.simple-game-controller,
+.simple-fire,
+.simple-eyeglass,
+.simple-envelope-open,
+.simple-envelope-letter,
+.simple-bell,
+.simple-badge,
+.simple-anchor,
+.simple-wallet,
+.simple-vector,
+.simple-speech,
+.simple-puzzle,
+.simple-printer,
+.simple-present,
+.simple-playlist,
+.simple-pin,
+.simple-picture,
+.simple-handbag,
+.simple-globe-alt,
+.simple-globe,
+.simple-folder-alt,
+.simple-folder,
+.simple-film,
+.simple-feed,
+.simple-drop,
+.simple-drawer,
+.simple-docs,
+.simple-doc,
+.simple-diamond,
+.simple-cup,
+.simple-calculator,
+.simple-bubbles,
+.simple-briefcase,
+.simple-book-open,
+.simple-basket-loaded,
+.simple-basket,
+.simple-bag,
+.simple-action-undo,
+.simple-action-redo,
+.simple-wrench,
+.simple-umbrella,
+.simple-trash,
+.simple-tag,
+.simple-support,
+.simple-frame,
+.simple-size-fullscreen,
+.simple-size-actual,
+.simple-shuffle,
+.simple-share-alt,
+.simple-share,
+.simple-rocket,
+.simple-question,
+.simple-pie-chart,
+.simple-pencil,
+.simple-note,
+.simple-loop,
+.simple-home,
+.simple-grid,
+.simple-graph,
+.simple-microphone,
+.simple-music-tone-alt,
+.simple-music-tone,
+.simple-earphones-alt,
+.simple-earphones,
+.simple-equalizer,
+.simple-like,
+.simple-dislike,
+.simple-control-start,
+.simple-control-rewind,
+.simple-control-play,
+.simple-control-pause,
+.simple-control-forward,
+.simple-control-end,
+.simple-volume-1,
+.simple-volume-2,
+.simple-volume-off,
+.simple-calendar,
+.simple-bulb,
+.simple-chart,
+.simple-ban,
+.simple-bubble,
+.simple-camrecorder,
+.simple-camera,
+.simple-cloud-download,
+.simple-cloud-upload,
+.simple-envelope,
+.simple-eye,
+.simple-flag,
+.simple-heart,
+.simple-info,
+.simple-key,
+.simple-link,
+.simple-lock,
+.simple-lock-open,
+.simple-magnifier,
+.simple-magnifier-add,
+.simple-magnifier-remove,
+.simple-paper-clip,
+.simple-paper-plane,
+.simple-power,
+.simple-refresh,
+.simple-reload,
+.simple-settings,
+.simple-star,
+.simple-symbol-female,
+.simple-symbol-male,
+.simple-target,
+.simple-credit-card,
+.simple-paypal,
+.simple-social-tumblr,
+.simple-social-twitter,
+.simple-social-facebook,
+.simple-social-instagram,
+.simple-social-linkedin,
+.simple-social-pinterest,
+.simple-social-github,
+.simple-social-google,
+.simple-social-reddit,
+.simple-social-skype,
+.simple-social-dribbble,
+.simple-social-behance,
+.simple-social-foursqare,
+.simple-social-soundcloud,
+.simple-social-spotify,
+.simple-social-stumbleupon,
+.simple-social-youtube,
+.simple-social-dropbox,
+.simple-social-vkontakte,
+.simple-social-steam {
+  font-family: 'simple-line-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.simple-user:before {
+  content: "\e005";
+}
+.simple-people:before {
+  content: "\e001";
+}
+.simple-user-female:before {
+  content: "\e000";
+}
+.simple-user-follow:before {
+  content: "\e002";
+}
+.simple-user-following:before {
+  content: "\e003";
+}
+.simple-user-unfollow:before {
+  content: "\e004";
+}
+.simple-login:before {
+  content: "\e066";
+}
+.simple-logout:before {
+  content: "\e065";
+}
+.simple-emotsmile:before {
+  content: "\e021";
+}
+.simple-phone:before {
+  content: "\e600";
+}
+.simple-call-end:before {
+  content: "\e048";
+}
+.simple-call-in:before {
+  content: "\e047";
+}
+.simple-call-out:before {
+  content: "\e046";
+}
+.simple-map:before {
+  content: "\e033";
+}
+.simple-location-pin:before {
+  content: "\e096";
+}
+.simple-direction:before {
+  content: "\e042";
+}
+.simple-directions:before {
+  content: "\e041";
+}
+.simple-compass:before {
+  content: "\e045";
+}
+.simple-layers:before {
+  content: "\e034";
+}
+.simple-menu:before {
+  content: "\e601";
+}
+.simple-list:before {
+  content: "\e067";
+}
+.simple-options-vertical:before {
+  content: "\e602";
+}
+.simple-options:before {
+  content: "\e603";
+}
+.simple-arrow-down:before {
+  content: "\e604";
+}
+.simple-arrow-left:before {
+  content: "\e605";
+}
+.simple-arrow-right:before {
+  content: "\e606";
+}
+.simple-arrow-up:before {
+  content: "\e607";
+}
+.simple-arrow-up-circle:before {
+  content: "\e078";
+}
+.simple-arrow-left-circle:before {
+  content: "\e07a";
+}
+.simple-arrow-right-circle:before {
+  content: "\e079";
+}
+.simple-arrow-down-circle:before {
+  content: "\e07b";
+}
+.simple-check:before {
+  content: "\e080";
+}
+.simple-clock:before {
+  content: "\e081";
+}
+.simple-plus:before {
+  content: "\e095";
+}
+.simple-minus:before {
+  content: "\e615";
+}
+.simple-close:before {
+  content: "\e082";
+}
+.simple-event:before {
+  content: "\e619";
+}
+.simple-exclamation:before {
+  content: "\e617";
+}
+.simple-organization:before {
+  content: "\e616";
+}
+.simple-trophy:before {
+  content: "\e006";
+}
+.simple-screen-smartphone:before {
+  content: "\e010";
+}
+.simple-screen-desktop:before {
+  content: "\e011";
+}
+.simple-plane:before {
+  content: "\e012";
+}
+.simple-notebook:before {
+  content: "\e013";
+}
+.simple-mustache:before {
+  content: "\e014";
+}
+.simple-mouse:before {
+  content: "\e015";
+}
+.simple-magnet:before {
+  content: "\e016";
+}
+.simple-energy:before {
+  content: "\e020";
+}
+.simple-disc:before {
+  content: "\e022";
+}
+.simple-cursor:before {
+  content: "\e06e";
+}
+.simple-cursor-move:before {
+  content: "\e023";
+}
+.simple-crop:before {
+  content: "\e024";
+}
+.simple-chemistry:before {
+  content: "\e026";
+}
+.simple-speedometer:before {
+  content: "\e007";
+}
+.simple-shield:before {
+  content: "\e00e";
+}
+.simple-screen-tablet:before {
+  content: "\e00f";
+}
+.simple-magic-wand:before {
+  content: "\e017";
+}
+.simple-hourglass:before {
+  content: "\e018";
+}
+.simple-graduation:before {
+  content: "\e019";
+}
+.simple-ghost:before {
+  content: "\e01a";
+}
+.simple-game-controller:before {
+  content: "\e01b";
+}
+.simple-fire:before {
+  content: "\e01c";
+}
+.simple-eyeglass:before {
+  content: "\e01d";
+}
+.simple-envelope-open:before {
+  content: "\e01e";
+}
+.simple-envelope-letter:before {
+  content: "\e01f";
+}
+.simple-bell:before {
+  content: "\e027";
+}
+.simple-badge:before {
+  content: "\e028";
+}
+.simple-anchor:before {
+  content: "\e029";
+}
+.simple-wallet:before {
+  content: "\e02a";
+}
+.simple-vector:before {
+  content: "\e02b";
+}
+.simple-speech:before {
+  content: "\e02c";
+}
+.simple-puzzle:before {
+  content: "\e02d";
+}
+.simple-printer:before {
+  content: "\e02e";
+}
+.simple-present:before {
+  content: "\e02f";
+}
+.simple-playlist:before {
+  content: "\e030";
+}
+.simple-pin:before {
+  content: "\e031";
+}
+.simple-picture:before {
+  content: "\e032";
+}
+.simple-handbag:before {
+  content: "\e035";
+}
+.simple-globe-alt:before {
+  content: "\e036";
+}
+.simple-globe:before {
+  content: "\e037";
+}
+.simple-folder-alt:before {
+  content: "\e039";
+}
+.simple-folder:before {
+  content: "\e089";
+}
+.simple-film:before {
+  content: "\e03a";
+}
+.simple-feed:before {
+  content: "\e03b";
+}
+.simple-drop:before {
+  content: "\e03e";
+}
+.simple-drawer:before {
+  content: "\e03f";
+}
+.simple-docs:before {
+  content: "\e040";
+}
+.simple-doc:before {
+  content: "\e085";
+}
+.simple-diamond:before {
+  content: "\e043";
+}
+.simple-cup:before {
+  content: "\e044";
+}
+.simple-calculator:before {
+  content: "\e049";
+}
+.simple-bubbles:before {
+  content: "\e04a";
+}
+.simple-briefcase:before {
+  content: "\e04b";
+}
+.simple-book-open:before {
+  content: "\e04c";
+}
+.simple-basket-loaded:before {
+  content: "\e04d";
+}
+.simple-basket:before {
+  content: "\e04e";
+}
+.simple-bag:before {
+  content: "\e04f";
+}
+.simple-action-undo:before {
+  content: "\e050";
+}
+.simple-action-redo:before {
+  content: "\e051";
+}
+.simple-wrench:before {
+  content: "\e052";
+}
+.simple-umbrella:before {
+  content: "\e053";
+}
+.simple-trash:before {
+  content: "\e054";
+}
+.simple-tag:before {
+  content: "\e055";
+}
+.simple-support:before {
+  content: "\e056";
+}
+.simple-frame:before {
+  content: "\e038";
+}
+.simple-size-fullscreen:before {
+  content: "\e057";
+}
+.simple-size-actual:before {
+  content: "\e058";
+}
+.simple-shuffle:before {
+  content: "\e059";
+}
+.simple-share-alt:before {
+  content: "\e05a";
+}
+.simple-share:before {
+  content: "\e05b";
+}
+.simple-rocket:before {
+  content: "\e05c";
+}
+.simple-question:before {
+  content: "\e05d";
+}
+.simple-pie-chart:before {
+  content: "\e05e";
+}
+.simple-pencil:before {
+  content: "\e05f";
+}
+.simple-note:before {
+  content: "\e060";
+}
+.simple-loop:before {
+  content: "\e064";
+}
+.simple-home:before {
+  content: "\e069";
+}
+.simple-grid:before {
+  content: "\e06a";
+}
+.simple-graph:before {
+  content: "\e06b";
+}
+.simple-microphone:before {
+  content: "\e063";
+}
+.simple-music-tone-alt:before {
+  content: "\e061";
+}
+.simple-music-tone:before {
+  content: "\e062";
+}
+.simple-earphones-alt:before {
+  content: "\e03c";
+}
+.simple-earphones:before {
+  content: "\e03d";
+}
+.simple-equalizer:before {
+  content: "\e06c";
+}
+.simple-like:before {
+  content: "\e068";
+}
+.simple-dislike:before {
+  content: "\e06d";
+}
+.simple-control-start:before {
+  content: "\e06f";
+}
+.simple-control-rewind:before {
+  content: "\e070";
+}
+.simple-control-play:before {
+  content: "\e071";
+}
+.simple-control-pause:before {
+  content: "\e072";
+}
+.simple-control-forward:before {
+  content: "\e073";
+}
+.simple-control-end:before {
+  content: "\e074";
+}
+.simple-volume-1:before {
+  content: "\e09f";
+}
+.simple-volume-2:before {
+  content: "\e0a0";
+}
+.simple-volume-off:before {
+  content: "\e0a1";
+}
+.simple-calendar:before {
+  content: "\e075";
+}
+.simple-bulb:before {
+  content: "\e076";
+}
+.simple-chart:before {
+  content: "\e077";
+}
+.simple-ban:before {
+  content: "\e07c";
+}
+.simple-bubble:before {
+  content: "\e07d";
+}
+.simple-camrecorder:before {
+  content: "\e07e";
+}
+.simple-camera:before {
+  content: "\e07f";
+}
+.simple-cloud-download:before {
+  content: "\e083";
+}
+.simple-cloud-upload:before {
+  content: "\e084";
+}
+.simple-envelope:before {
+  content: "\e086";
+}
+.simple-eye:before {
+  content: "\e087";
+}
+.simple-flag:before {
+  content: "\e088";
+}
+.simple-heart:before {
+  content: "\e08a";
+}
+.simple-info:before {
+  content: "\e08b";
+}
+.simple-key:before {
+  content: "\e08c";
+}
+.simple-link:before {
+  content: "\e08d";
+}
+.simple-lock:before {
+  content: "\e08e";
+}
+.simple-lock-open:before {
+  content: "\e08f";
+}
+.simple-magnifier:before {
+  content: "\e090";
+}
+.simple-magnifier-add:before {
+  content: "\e091";
+}
+.simple-magnifier-remove:before {
+  content: "\e092";
+}
+.simple-paper-clip:before {
+  content: "\e093";
+}
+.simple-paper-plane:before {
+  content: "\e094";
+}
+.simple-power:before {
+  content: "\e097";
+}
+.simple-refresh:before {
+  content: "\e098";
+}
+.simple-reload:before {
+  content: "\e099";
+}
+.simple-settings:before {
+  content: "\e09a";
+}
+.simple-star:before {
+  content: "\e09b";
+}
+.simple-symbol-female:before {
+  content: "\e09c";
+}
+.simple-symbol-male:before {
+  content: "\e09d";
+}
+.simple-target:before {
+  content: "\e09e";
+}
+.simple-credit-card:before {
+  content: "\e025";
+}
+.simple-paypal:before {
+  content: "\e608";
+}
+.simple-social-tumblr:before {
+  content: "\e00a";
+}
+.simple-social-twitter:before {
+  content: "\e009";
+}
+.simple-social-facebook:before {
+  content: "\e00b";
+}
+.simple-social-instagram:before {
+  content: "\e609";
+}
+.simple-social-linkedin:before {
+  content: "\e60a";
+}
+.simple-social-pinterest:before {
+  content: "\e60b";
+}
+.simple-social-github:before {
+  content: "\e60c";
+}
+.simple-social-google:before {
+  content: "\e60d";
+}
+.simple-social-reddit:before {
+  content: "\e60e";
+}
+.simple-social-skype:before {
+  content: "\e60f";
+}
+.simple-social-dribbble:before {
+  content: "\e00d";
+}
+.simple-social-behance:before {
+  content: "\e610";
+}
+.simple-social-foursqare:before {
+  content: "\e611";
+}
+.simple-social-soundcloud:before {
+  content: "\e612";
+}
+.simple-social-spotify:before {
+  content: "\e613";
+}
+.simple-social-stumbleupon:before {
+  content: "\e614";
+}
+.simple-social-youtube:before {
+  content: "\e008";
+}
+.simple-social-dropbox:before {
+  content: "\e00c";
+}
+.simple-social-vkontakte:before {
+  content: "\e618";
+}
+.simple-social-steam:before {
+  content: "\e620";
+}
